@@ -1,0 +1,35 @@
+<html>
+<body>
+  <ul id="navbar">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+	<div>
+		<div id="welcome-section" name="about">
+			<h1>Hello I am Ramces</h1>
+			<h2>A scientist and web developer</h2>
+		</div>
+	<section id="projects-list" name="work">
+		<h3>These are my projects</h3>
+		<section id="projects">
+			<div class="project project-tile">
+				<a href="https://raw.githack.com/chemram1001/Fritzhaber-tribute-page/master/tribute.html">Tribute Page</a>
+			</div>
+			<div class="project project-tile">
+				<a href="https://raw.githack.com/chemram1001/survey-form/master/survey.html">Survey Page</a>
+			</div>
+			<div class="project project-tile">
+				<a href="https://raw.githack.com/chemram1001/product-landing/master/product.html">Product Landing</a>
+			</div>
+			<div class="project project-tile">
+				<a href="https://raw.githack.com/chemram1001/technodoc/master/techdoc.html">Technical Page</a>
+			</div>
+		</section>
+	</section>
+	</div>
+  <div name="contact">
+  </div>
+  <a id="profile-link" target="_blank" href="https://github.com/chemram1001">My GitHub Profile</a>
+</body>
+</html>

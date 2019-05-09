@@ -1,0 +1,220 @@
+<html>
+<style>
+#welcome-section {
+	height: 100vh;
+	text-align: center;
+	font-size: 40px;
+	background-image: url(https://wallpapercave.com/wp/wp1837621.jpg);
+	background-size: cover;
+	color: rgb(0,255,0);
+	text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F;
+	margin: auto;
+}
+#about-text {
+	position: relative;
+	top: 200px;
+}
+#nav {
+	display: inline;
+	float: right;
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+	width: 100%
+	position: absolute;
+	top: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#projects-list {
+	height: 100vh;
+	background-color: rgb(20,10,25);
+	color: white;
+}
+#project-tile {
+	text-decoration: none;
+	color: #008080;
+	overflow: hidden;
+	border: 2px solid lightblue;
+	height: 220px;
+	width: 280px;
+	margin: 40px 100px;
+	flex: 1 1 0px;
+}
+.project-pic {
+	width: 100%;
+	height: 180px;
+	border-bottom: 2px solid lightblue;
+}
+body {
+	text-align: center;
+}
+.project {
+	text-decoration: none;
+	overflow: hidden;
+	border: 2px solid lightgreen;
+	height: 220px;
+	width: 280px;
+	margin: 40px 100px;
+}
+@media only screen and (max-width: 500px) {
+	nav ul {
+		text-align: center;
+	}
+	nav ul li {
+		margin: 20px;
+	}
+	.project {
+		margin: 40px 0;
+	}
+}
+#projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+}
+.project-title {
+	font-weight: bold;
+}
+a {
+	color: rgb(100,250,250);
+}
+#contact-info {
+	height: 90vh;
+	color: white;
+	background-image: url(https://images.ecosia.org/tsbUqhF9Cm4byT6wQG2f-SvAK74=/0x390/smart/http%3A%2F%2Faskatechteacher.com%2Fwp-content%2Fuploads%2F2015%2F10%2Fcoding-1.jpg);
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center; 
+	justify-content: center;
+	position: relative; 
+}
+.info-box {
+	background-color: grey;
+	opacity: 0.85;
+        height:350px;        
+        width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	line-height: 200%;
+}
+#profile-link {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 35px 45px 35px;
+	list-style-type: none;
+	border: 2px solid #90C695;
+	border-radius: 100%;
+	width: 125px;
+	height: 125px;
+	line-height: 100px;
+	//background: #e0ebe8;
+	background: black;
+	color: #008080;
+}
+#profile-link .a {
+	color: black;
+}
+</style>
+<body>
+	<nav>
+		<ul id="navbar">
+			<li><a href="#about">About</a></li>
+			<li><a href="#work">Work</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div>
+		<div id="welcome-section">
+			<a name="about"></a>
+			<div id="about-text">
+			<h1>Hello I am Ramces</h1>
+			<h5>scientist and web developer</h5>
+			</div>
+		</div>
+		<section id="projects-list" class="work">
+			<a name="work"></a>
+			<h3 class="work-header">These are my projects</h3>
+			<div id="projects">
+				<div class="project project-tile">
+					<a href="https://raw.githack.com/chemram1001/Fritzhaber-tribute-page/master/tribute.html">
+						<img class="project-pic" src="tributeweb.png" alt="My Tribute Webpage">
+						<div class="project-title">Tribute Page</div>
+					</a>
+				</div>
+				<div class="project project-tile">
+					<a href="https://raw.githack.com/chemram1001/survey-form/master/survey.html">
+						<img class="project-pic" src="surveyweb.png" alt="My Survey Form webpage">
+						<div class="project-title">Survey Page</div>
+					</a>
+				</div>
+				<div class="project project-tile">
+					<a href="https://raw.githack.com/chemram1001/product-landing/master/product.html">
+						<img class="project-pic" src="productweb.png" alt="My Product Landing Page">
+						<div class="project-title">Product Landing</div>
+					</a>
+				</div>
+				<div class="project project-tile">
+					<a href="https://raw.githack.com/chemram1001/technodoc/master/techdoc.html">
+						<img class="project-pic" src="techdocweb.png" alt="My Technical Document Webpage">
+						<div class="project-title">Technical Document</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<div id="contact-info">
+			<div class="info-box">
+				<a name="contact"></a>
+				Contact info:
+				<br>
+				 email: ramces899@gmail.com 
+				<br>
+				phone number: (760) 590-4190
+				<div id="profile-link">
+					<a href="https://github.com/chemram1001" target="_blank">My GitHub</a>
+				</div>
+				<div id="profile-link">
+					<a href="https://stackoverflow.com/users/8994202/ramazan?tab=profile" 
+					target="_blank">Stackoverflow</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
